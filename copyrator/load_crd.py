@@ -2,9 +2,7 @@ import kubernetes
 from contextlib import suppress
 from kubernetes.client.rest import ApiException
 
-CRD_GROUP = 'isurusiri.com'
-CRD_VERSION = 'v1'
-CRD_PLURAL = 'copyrators'
+from copyrator.constant import CRD_GROUP, CRD_VERSION, CRD_PLURAL
 
 
 # load_crd queries the api server and loads all rules / crds.
