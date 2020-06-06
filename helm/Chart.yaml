@@ -1,0 +1,9 @@
+apiVersion: v1
+description: An experimental Kubernetes operator to copy configmaps.
+name: copyrator
+version: 0.0.1
+appVersion: v0.0.1
+home: https://github.com/isurusiri/copyrator/
+maintainers:
+- name: isurusiri
+  email: isurusiri@protonmail.com
