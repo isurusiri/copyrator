@@ -4,4 +4,4 @@ ADD . /app
 
 RUN pip3 install /app
 
-ENTRYPOINT["copyrator"]
+ENTRYPOINT ["copyrator"]
