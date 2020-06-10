@@ -1,2 +1,2 @@
 # Copyrator
-Kubernetes operator to copy configmaps
+Kubernetes operator to copy configmaps.
